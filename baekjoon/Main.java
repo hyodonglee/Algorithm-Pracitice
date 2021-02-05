@@ -1,4 +1,4 @@
-//baekjoon_3190_¹ì
+//baekjoon_3190_ë±€
 
 import java.io.*;
 import java.util.*;
@@ -34,7 +34,7 @@ public class Main {
             int y = Integer.parseInt(s[1])-1;
 
             map[x][y]=APPLE;
-        }//»ç°ú¹Þ±â
+        }//ì‚¬ê³¼ë°›ê¸°
 
         s = br.readLine().split(" ");
         m = Integer.parseInt(s[0]);
@@ -73,7 +73,7 @@ public class Main {
             }
             map[nx][ny] = SNAKE;
 
-        }//sec±îÁö
+        }//secê¹Œì§€
        dir = (dir+direction+4)%4;
 
         return i;
